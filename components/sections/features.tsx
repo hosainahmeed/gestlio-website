@@ -1,42 +1,62 @@
 import { Calendar04Icon, CreditCardIcon, FlashIcon, Invoice02Icon, RepeatIcon, Search02Icon } from '@hugeicons/core-free-icons'
 import { HugeiconsIcon } from '@hugeicons/react'
+/*
+Find Cleaners and
+Automate
+your Airbnb
+Cleaning
 
+ Sync your bookings via iCal, find reliable cleaners and automate scheduling, payments and invoices in a few clicks
+
+ Create an account
+
+
+
+Cleaners
+Find your next cleaning jobs
+Connect your booking platforms and automatically import reservations
+Automatically receive cleaning jobs
+Manage your schedule easily from the app
+Get notified in real time
+Track your payments easily
+Grow your business without prospecting
+*/
 export const Features = () => {
   const features = [
     {
       icon: <HugeiconsIcon icon={Calendar04Icon} />,
       title: "Automatic iCal Sync",
-      description: "We design with real users in mind, focusing on clarity, usability and accessibility from day one.",
+      description: "Connect once and let the app handle all your booking imports automatically.",
       hasAccent: false
     },
     {
       icon: <HugeiconsIcon icon={Search02Icon} />,
-      title: "Fully responsive",
-      description: "Interfaces that look and feel great on desktop, tablet and mobile, no compromises.",
+      title: "Cleaner Marketplace",
+      description: "Browse and hire verified, experienced cleaners near your properties.",
       hasAccent: true
     },
     {
       icon: <HugeiconsIcon icon={FlashIcon} />,
-      title: "Global-ready UX",
-      description: "Clean files, clear specs and developer-friendly documentation - ready to build.",
+      title: "Smart Assignment",
+      description: "Cleanings are automatically assigned based on availability and proximity.",
       hasAccent: false
     },
     {
       icon: <HugeiconsIcon icon={CreditCardIcon} />,
-      title: "Scalable systems",
-      description: "Consistent components, tokens and patterns built to grow with your product.",
+      title: "Payment Management",
+      description: "Secure, automatic payments processed as soon as cleanings are validated.",
       hasAccent: false
     },
     {
       icon: <HugeiconsIcon icon={Invoice02Icon} />,
-      title: "Easy to iterate",
-      description: "Flexible designs that adapt quickly as your product, users and goals evolve.",
+      title: "Automatic Invoices",
+      description: "Professional invoices generated and sent automatically for every job.",
       hasAccent: false
     },
     {
       icon: <HugeiconsIcon icon={RepeatIcon} />,
-      title: "Performance-aware",
-      description: "Optimized layouts and interactions that support fast load times and smooth experiences.",
+      title: "Real-time Tracking",
+      description: "Monitor every cleaning in real time with live status updates and photo proofs.",
       hasAccent: false
     }
   ]
@@ -56,7 +76,7 @@ export const Features = () => {
         </div>
 
         {/* Features Grid with Borders */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 max-w-full sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl w-full border-t border-l border-zinc-200 relative">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 max-w-full sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl w-full border-t border-l border-zinc-200 relative">
           {features.map((feature, index) => (
             <div
               key={index}

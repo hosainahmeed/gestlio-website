@@ -8,7 +8,6 @@ export const ForEveryone = () => {
           For Everyone
         </span>
         <h1 className="text-4xl md:text-5xl font-medium text-slate-900 mt-6">A simple solution for hosts and cleaners</h1>
-        <p className="text-sm md:text-base text-slate-600 mt-3 max-w-[530px] mx-auto">Build faster with powerful, flexible tools designed to simplify workflows and deliver results without complexity.</p>
       </div>
 
       {/* Features Grid */}
