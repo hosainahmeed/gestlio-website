@@ -1,26 +1,6 @@
 import { Calendar04Icon, CreditCardIcon, FlashIcon, Invoice02Icon, RepeatIcon, Search02Icon } from '@hugeicons/core-free-icons'
 import { HugeiconsIcon } from '@hugeicons/react'
-/*
-Find Cleaners and
-Automate
-your Airbnb
-Cleaning
 
- Sync your bookings via iCal, find reliable cleaners and automate scheduling, payments and invoices in a few clicks
-
- Create an account
-
-
-
-Cleaners
-Find your next cleaning jobs
-Connect your booking platforms and automatically import reservations
-Automatically receive cleaning jobs
-Manage your schedule easily from the app
-Get notified in real time
-Track your payments easily
-Grow your business without prospecting
-*/
 export const Features = () => {
   const features = [
     {
